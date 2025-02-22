@@ -102,7 +102,7 @@ USED_FOLDER = r"\used_images"
 os.makedirs(USED_FOLDER, exist_ok=True)
 
 # JSON file with personality summaries
-SUMMARY_JSON = r"H:\fun friday\personality_summaries_v1.json"
+SUMMARY_JSON = "personality_summaries_v1.json"
 if os.path.exists(SUMMARY_JSON):
     with open(SUMMARY_JSON, "r", encoding="utf-8") as f:
         summaries = json.load(f)
