@@ -28,11 +28,68 @@ def rotate_image(image, angle):
     rotated = cv2.warpAffine(image, M, (nW, nH))
     return rotated
 
+def is_valid_placement(grid, w, h):
+    """Check if any adjacent blocks in the shuffled grid were adjacent in the original order."""
+    for i in range(h):
+        for j in range(w):
+            idx = i * w + j
+            if j > 0 and abs(grid[i][j] - grid[i][j - 1]) == 1:  # Check left neighbor
+                return False
+            if i > 0 and abs(grid[i][j] - grid[i - 1][j]) == 1:  # Check top neighbor
+                return False
+    return True
+
+def constrained_shuffle(blocks, grid_size):
+    """
+    Shuffle blocks such that no two adjacent blocks from the original image remain adjacent.
+    """
+    h, w = grid_size
+    original_indices = list(range(len(blocks)))
+    random.shuffle(original_indices)  # Randomly shuffle indexes
+
+    # Convert to 2D Grid
+    shuffled_grid = [[None] * w for _ in range(h)]
+    
+    def backtrack(index):
+        if index == len(original_indices):  # Successfully placed all
+            return True
+
+        i, j = divmod(index, w)
+        for idx in original_indices:
+            if idx in [shuffled_grid[x][y] for x in range(h) for y in range(w) if shuffled_grid[x][y] is not None]:
+                continue  # Skip used indices
+            
+            # Check adjacency constraints
+            if j > 0 and shuffled_grid[i][j - 1] is not None and abs(idx - shuffled_grid[i][j - 1]) == 1:
+                continue  # Skip if left neighbor is adjacent in original
+            if i > 0 and shuffled_grid[i - 1][j] is not None and abs(idx - shuffled_grid[i - 1][j]) == 1:
+                continue  # Skip if top neighbor is adjacent in original
+            
+            shuffled_grid[i][j] = idx  # Place the index
+            
+            if backtrack(index + 1):  # Recurse
+                return True
+            
+            shuffled_grid[i][j] = None  # Backtrack
+        
+        return False  # No valid placement found
+
+    # Start Backtracking
+    backtrack(0)
+    
+    # Flatten the grid back into a list
+    final_shuffled_indices = [shuffled_grid[i][j] for i in range(h) for j in range(w)]
+    
+    # Rearrange the blocks according to shuffled indices
+    shuffled_blocks = [blocks[idx] for idx in final_shuffled_indices]
+    
+    return shuffled_blocks
+
+
 def process_quadrant(quadrant, block_grid=3, blur_ksize=21):
     """
     Split a quadrant into (block_grid x block_grid) blocks,
-    blur each block, randomly shuffle the blocks, and then
-    reassemble them into a new quadrant.
+    blur each block, randomly shuffle with adjacency constraints, and reassemble.
     """
     (qh, qw) = quadrant.shape[:2]
     block_h = qh // block_grid
@@ -47,7 +104,7 @@ def process_quadrant(quadrant, block_grid=3, blur_ksize=21):
             block = cv2.GaussianBlur(block, (blur_ksize, blur_ksize), 0)
             blocks.append(block)
     
-    random.shuffle(blocks)
+    shuffled_blocks = constrained_shuffle(blocks, (block_grid, block_grid))
     
     new_quadrant = np.zeros_like(quadrant)
     idx = 0
@@ -55,9 +112,10 @@ def process_quadrant(quadrant, block_grid=3, blur_ksize=21):
         for j in range(block_grid):
             y1 = i * block_h
             x1 = j * block_w
-            new_quadrant[y1:(y1 + block_h), x1:(x1 + block_w)] = blocks[idx]
+            new_quadrant[y1:(y1 + block_h), x1:(x1 + block_w)] = shuffled_blocks[idx]
             idx += 1
     return new_quadrant
+
 
 def distort_image(image):
     """
@@ -74,7 +132,7 @@ def distort_image(image):
     bottom_left = rotated[mid_h:h, 0:mid_w]
     bottom_right = rotated[mid_h:h, mid_w:w]
     
-    block_grid = 2
+    block_grid = 3
     blur_ksize = 21
     processed_tl = process_quadrant(top_left, block_grid, blur_ksize)
     processed_tr = process_quadrant(top_right, block_grid, blur_ksize)
@@ -96,13 +154,13 @@ def format_elapsed_time(elapsed):
 # -------------------- Paths & Data Loading --------------------
 
 # Folder with available images
-IMAGE_FOLDER = "images_v7"
+IMAGE_FOLDER = r"H:\fun friday\images_v8"
 # Folder for used images
-USED_FOLDER = "used_images"
+USED_FOLDER = r"H:\fun friday\used_images"
 os.makedirs(USED_FOLDER, exist_ok=True)
 
 # JSON file with personality summaries
-SUMMARY_JSON = "personality_summaries_v1.json"
+SUMMARY_JSON = r"H:\fun friday\personality_summaries_v2.json"
 if os.path.exists(SUMMARY_JSON):
     with open(SUMMARY_JSON, "r", encoding="utf-8") as f:
         summaries = json.load(f)
