@@ -1,0 +1,582 @@
+[
+    {
+        "name": "Shah Rukh Khan",
+        "image_filename": "Shah_Rukh_Khan.jpg",
+        "info": "Information about Shah Rukh Khan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Aamir Khan",
+        "image_filename": "Aamir_Khan.jpg",
+        "info": "Information about Aamir Khan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Salman Khan",
+        "image_filename": "Salman_Khan.jpg",
+        "info": "Information about Salman Khan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Hrithik Roshan",
+        "image_filename": "Hrithik_Roshan.jpg",
+        "info": "Information about Hrithik Roshan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Ranbir Kapoor",
+        "image_filename": "Ranbir_Kapoor.jpg",
+        "info": "Information about Ranbir Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Ranveer Singh",
+        "image_filename": "Ranveer_Singh.jpg",
+        "info": "Information about Ranveer Singh is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Ayushmann Khurrana",
+        "image_filename": "Ayushmann_Khurrana.jpg",
+        "info": "Information about Ayushmann Khurrana is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Vicky Kaushal",
+        "image_filename": "Vicky_Kaushal.jpg",
+        "info": "Information about Vicky Kaushal is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Rajkummar Rao",
+        "image_filename": "Rajkummar_Rao.jpg",
+        "info": "Information about Rajkummar Rao is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Tiger Shroff",
+        "image_filename": "Tiger_Shroff.jpg",
+        "info": "Information about Tiger Shroff is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Varun Dhawan",
+        "image_filename": "Varun_Dhawan.jpg",
+        "info": "Information about Varun Dhawan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sidharth Malhotra",
+        "image_filename": "Sidharth_Malhotra.jpg",
+        "info": "Information about Sidharth Malhotra is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Aditya Roy Kapur",
+        "image_filename": "Aditya_Roy_Kapur.jpg",
+        "info": "Information about Aditya Roy Kapur is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Arjun Kapoor",
+        "image_filename": "Arjun_Kapoor.jpg",
+        "info": "Information about Arjun Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Kartik Aaryan",
+        "image_filename": "Kartik_Aaryan.jpg",
+        "info": "Information about Kartik Aaryan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Ishaan Khatter",
+        "image_filename": "Ishaan_Khatter.jpg",
+        "info": "Information about Ishaan Khatter is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Ahan Shetty",
+        "image_filename": "Ahan_Shetty.jpg",
+        "info": "Information about Ahan Shetty is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Pratik Gandhi",
+        "image_filename": "Pratik_Gandhi.jpg",
+        "info": "Information about Pratik Gandhi is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Vijay Varma",
+        "image_filename": "Vijay_Varma.jpg",
+        "info": "Information about Vijay Varma is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Amit Sadh",
+        "image_filename": "Amit_Sadh.jpg",
+        "info": "Information about Amit Sadh is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Jim Sarbh",
+        "image_filename": "Jim_Sarbh.jpg",
+        "info": "Information about Jim Sarbh is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Diljit Dosanjh",
+        "image_filename": "Diljit_Dosanjh.jpg",
+        "info": "Information about Diljit Dosanjh is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sunny Kaushal",
+        "image_filename": "Sunny_Kaushal.jpg",
+        "info": "Information about Sunny Kaushal is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Abhimanyu Dassani",
+        "image_filename": "Abhimanyu_Dassani.jpg",
+        "info": "Information about Abhimanyu Dassani is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Aayush Sharma",
+        "image_filename": "Aayush_Sharma.jpg",
+        "info": "Information about Aayush Sharma is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sushant Singh Rajput",
+        "image_filename": "Sushant_Singh_Rajput.jpg",
+        "info": "Information about Sushant Singh Rajput is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Farhan Akhtar",
+        "image_filename": "Farhan_Akhtar.jpg",
+        "info": "Information about Farhan Akhtar is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Shahid Kapoor",
+        "image_filename": "Shahid_Kapoor.jpg",
+        "info": "Information about Shahid Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "John Abraham",
+        "image_filename": "John_Abraham.jpg",
+        "info": "Information about John Abraham is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Saif Ali Khan",
+        "image_filename": "Saif_Ali_Khan.jpg",
+        "info": "Information about Saif Ali Khan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Akshay Kumar",
+        "image_filename": "Akshay_Kumar.jpg",
+        "info": "Information about Akshay Kumar is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Ajay Devgn",
+        "image_filename": "Ajay_Devgn.jpg",
+        "info": "Information about Ajay Devgn is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Riteish Deshmukh",
+        "image_filename": "Riteish_Deshmukh.jpg",
+        "info": "Information about Riteish Deshmukh is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Emraan Hashmi",
+        "image_filename": "Emraan_Hashmi.jpg",
+        "info": "Information about Emraan Hashmi is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Arshad Warsi",
+        "image_filename": "Arshad_Warsi.jpg",
+        "info": "Information about Arshad Warsi is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sanjay Dutt",
+        "image_filename": "Sanjay_Dutt.jpg",
+        "info": "Information about Sanjay Dutt is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sunny Deol",
+        "image_filename": "Sunny_Deol.jpg",
+        "info": "Information about Sunny Deol is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Bobby Deol",
+        "image_filename": "Bobby_Deol.jpg",
+        "info": "Information about Bobby Deol is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Prabhas",
+        "image_filename": "Prabhas.jpg",
+        "info": "Information about Prabhas is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Allu Arjun",
+        "image_filename": "Allu_Arjun.jpg",
+        "info": "Information about Allu Arjun is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Yash",
+        "image_filename": "Yash.jpg",
+        "info": "Information about Yash is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Ram Charan",
+        "image_filename": "Ram_Charan.jpg",
+        "info": "Information about Ram Charan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Jr. NTR",
+        "image_filename": "Jr._NTR.jpg",
+        "info": "Information about Jr. NTR is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Vijay Deverakonda",
+        "image_filename": "Vijay_Deverakonda.jpg",
+        "info": "Information about Vijay Deverakonda is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Nani",
+        "image_filename": "Nani.jpg",
+        "info": "Information about Nani is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Dhanush",
+        "image_filename": "Dhanush.jpg",
+        "info": "Information about Dhanush is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Suriya",
+        "image_filename": "Suriya.jpg",
+        "info": "Information about Suriya is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Vikram",
+        "image_filename": "Vikram.jpg",
+        "info": "Information about Vikram is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Rana Daggubati",
+        "image_filename": "Rana_Daggubati.jpg",
+        "info": "Information about Rana Daggubati is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Dulquer Salmaan",
+        "image_filename": "Dulquer_Salmaan.jpg",
+        "info": "Information about Dulquer Salmaan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Deepika Padukone",
+        "image_filename": "Deepika_Padukone.jpg",
+        "info": "Information about Deepika Padukone is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Priyanka Chopra",
+        "image_filename": "Priyanka_Chopra.jpg",
+        "info": "Information about Priyanka Chopra is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Kareena Kapoor",
+        "image_filename": "Kareena_Kapoor.jpg",
+        "info": "Information about Kareena Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Alia Bhatt",
+        "image_filename": "Alia_Bhatt.jpg",
+        "info": "Information about Alia Bhatt is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Katrina Kaif",
+        "image_filename": "Katrina_Kaif.jpg",
+        "info": "Information about Katrina Kaif is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Anushka Sharma",
+        "image_filename": "Anushka_Sharma.jpg",
+        "info": "Information about Anushka Sharma is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Kangana Ranaut",
+        "image_filename": "Kangana_Ranaut.jpg",
+        "info": "Information about Kangana Ranaut is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Taapsee Pannu",
+        "image_filename": "Taapsee_Pannu.jpg",
+        "info": "Information about Taapsee Pannu is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Bhumi Pednekar",
+        "image_filename": "Bhumi_Pednekar.jpg",
+        "info": "Information about Bhumi Pednekar is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Kiara Advani",
+        "image_filename": "Kiara_Advani.jpg",
+        "info": "Information about Kiara Advani is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Shraddha Kapoor",
+        "image_filename": "Shraddha_Kapoor.jpg",
+        "info": "Information about Shraddha Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sara Ali Khan",
+        "image_filename": "Sara_Ali_Khan.jpg",
+        "info": "Information about Sara Ali Khan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Janhvi Kapoor",
+        "image_filename": "Janhvi_Kapoor.jpg",
+        "info": "Information about Janhvi Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Ananya Panday",
+        "image_filename": "Ananya_Panday.jpg",
+        "info": "Information about Ananya Panday is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Tripti Dimri",
+        "image_filename": "Tripti_Dimri.jpg",
+        "info": "Information about Tripti Dimri is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Radhika Madan",
+        "image_filename": "Radhika_Madan.jpg",
+        "info": "Information about Radhika Madan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Disha Patani",
+        "image_filename": "Disha_Patani.jpg",
+        "info": "Information about Disha Patani is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Nushrratt Bharuccha",
+        "image_filename": "Nushrratt_Bharuccha.jpg",
+        "info": "Information about Nushrratt Bharuccha is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Kriti Sanon",
+        "image_filename": "Kriti_Sanon.jpg",
+        "info": "Information about Kriti Sanon is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Yami Gautam",
+        "image_filename": "Yami_Gautam.jpg",
+        "info": "Information about Yami Gautam is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Jacqueline Fernandez",
+        "image_filename": "Jacqueline_Fernandez.jpg",
+        "info": "Information about Jacqueline Fernandez is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Nora Fatehi",
+        "image_filename": "Nora_Fatehi.jpg",
+        "info": "Information about Nora Fatehi is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Mouni Roy",
+        "image_filename": "Mouni_Roy.jpg",
+        "info": "Information about Mouni Roy is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Vaani Kapoor",
+        "image_filename": "Vaani_Kapoor.jpg",
+        "info": "Information about Vaani Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Parineeti Chopra",
+        "image_filename": "Parineeti_Chopra.jpg",
+        "info": "Information about Parineeti Chopra is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sonakshi Sinha",
+        "image_filename": "Sonakshi_Sinha.jpg",
+        "info": "Information about Sonakshi Sinha is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sonam Kapoor",
+        "image_filename": "Sonam_Kapoor.jpg",
+        "info": "Information about Sonam Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Vidya Balan",
+        "image_filename": "Vidya_Balan.jpg",
+        "info": "Information about Vidya Balan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Rani Mukerji",
+        "image_filename": "Rani_Mukerji.jpg",
+        "info": "Information about Rani Mukerji is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Preity Zinta",
+        "image_filename": "Preity_Zinta.jpg",
+        "info": "Information about Preity Zinta is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Aishwarya Rai Bachchan",
+        "image_filename": "Aishwarya_Rai_Bachchan.jpg",
+        "info": "Information about Aishwarya Rai Bachchan is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Madhuri Dixit",
+        "image_filename": "Madhuri_Dixit.jpg",
+        "info": "Information about Madhuri Dixit is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sridevi",
+        "image_filename": "Sridevi.jpg",
+        "info": "Information about Sridevi is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Raveena Tandon",
+        "image_filename": "Raveena_Tandon.jpg",
+        "info": "Information about Raveena Tandon is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Tabu",
+        "image_filename": "Tabu.jpg",
+        "info": "Information about Tabu is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Kajol",
+        "image_filename": "Kajol.jpg",
+        "info": "Information about Kajol is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Karisma Kapoor",
+        "image_filename": "Karisma_Kapoor.jpg",
+        "info": "Information about Karisma Kapoor is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Urmila Matondkar",
+        "image_filename": "Urmila_Matondkar.jpg",
+        "info": "Information about Urmila Matondkar is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Manisha Koirala",
+        "image_filename": "Manisha_Koirala.jpg",
+        "info": "Information about Manisha Koirala is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Twinkle Khanna",
+        "image_filename": "Twinkle_Khanna.jpg",
+        "info": "Information about Twinkle Khanna is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Amrita Rao",
+        "image_filename": "Amrita_Rao.jpg",
+        "info": "Information about Amrita Rao is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Genelia D'Souza",
+        "image_filename": "Genelia_D'Souza.jpg",
+        "info": "Information about Genelia D'Souza is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Asin",
+        "image_filename": "Asin.jpg",
+        "info": "Information about Asin is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Bipasha Basu",
+        "image_filename": "Bipasha_Basu.jpg",
+        "info": "Information about Bipasha Basu is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Lara Dutta",
+        "image_filename": "Lara_Dutta.jpg",
+        "info": "Information about Lara Dutta is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Dia Mirza",
+        "image_filename": "Dia_Mirza.jpg",
+        "info": "Information about Dia Mirza is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Amisha Patel",
+        "image_filename": "Amisha_Patel.jpg",
+        "info": "Information about Amisha Patel is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Esha Deol",
+        "image_filename": "Esha_Deol.jpg",
+        "info": "Information about Esha Deol is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Neha Dhupia",
+        "image_filename": "Neha_Dhupia.jpg",
+        "info": "Information about Neha Dhupia is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Gracy Singh",
+        "image_filename": "Gracy_Singh.jpg",
+        "info": "Information about Gracy Singh is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Rimi Sen",
+        "image_filename": "Rimi_Sen.jpg",
+        "info": "Information about Rimi Sen is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Celina Jaitly",
+        "image_filename": "Celina_Jaitly.jpg",
+        "info": "Information about Celina Jaitly is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Tanushree Dutta",
+        "image_filename": "Tanushree_Dutta.jpg",
+        "info": "Information about Tanushree Dutta is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Neetu Chandra",
+        "image_filename": "Neetu_Chandra.jpg",
+        "info": "Information about Neetu Chandra is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Minissha Lamba",
+        "image_filename": "Minissha_Lamba.jpg",
+        "info": "Information about Minissha Lamba is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Aditi Rao Hydari",
+        "image_filename": "Aditi_Rao_Hydari.jpg",
+        "info": "Information about Aditi Rao Hydari is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Huma Qureshi",
+        "image_filename": "Huma_Qureshi.jpg",
+        "info": "Information about Huma Qureshi is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Richa Chadha",
+        "image_filename": "Richa_Chadha.jpg",
+        "info": "Information about Richa Chadha is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Radhika Apte",
+        "image_filename": "Radhika_Apte.jpg",
+        "info": "Information about Radhika Apte is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Kalki Koechlin",
+        "image_filename": "Kalki_Koechlin.jpg",
+        "info": "Information about Kalki Koechlin is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Swara Bhasker",
+        "image_filename": "Swara_Bhasker.jpg",
+        "info": "Information about Swara Bhasker is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Rasika Dugal",
+        "image_filename": "Rasika_Dugal.jpg",
+        "info": "Information about Rasika Dugal is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Tillotama Shome",
+        "image_filename": "Tillotama_Shome.jpg",
+        "info": "Information about Tillotama Shome is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Sayani Gupta",
+        "image_filename": "Sayani_Gupta.jpg",
+        "info": "Information about Sayani Gupta is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Tisca Chopra",
+        "image_filename": "Tisca_Chopra.jpg",
+        "info": "Information about Tisca Chopra is not available.\nAdditional details will be updated soon."
+    },
+    {
+        "name": "Konkona Sen Sharma",
+        "image_filename": "Konkona_Sen_Sharma.jpg",
+        "info": "Information about Konkona Sen Sharma is not available.\nAdditional details will be updated soon."
+    }
+]
