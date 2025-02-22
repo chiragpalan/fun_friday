@@ -96,9 +96,9 @@ def format_elapsed_time(elapsed):
 # -------------------- Paths & Data Loading --------------------
 
 # Folder with available images
-IMAGE_FOLDER = r"H:\fun friday\images_v7"
+IMAGE_FOLDER = r"\images_v7"
 # Folder for used images
-USED_FOLDER = r"H:\fun friday\used_images"
+USED_FOLDER = r"\used_images"
 os.makedirs(USED_FOLDER, exist_ok=True)
 
 # JSON file with personality summaries
