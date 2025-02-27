@@ -133,7 +133,7 @@ def distort_image(image):
     bottom_right = rotated[mid_h:h, mid_w:w]
     
     block_grid = 3
-    blur_ksize = 21
+    blur_ksize = 11
     processed_tl = process_quadrant(top_left, block_grid, blur_ksize)
     processed_tr = process_quadrant(top_right, block_grid, blur_ksize)
     processed_bl = process_quadrant(bottom_left, block_grid, blur_ksize)
